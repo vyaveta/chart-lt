@@ -1,5 +1,33 @@
 .container{
     width: 90vw;
     height: 90vh;
-    
+
+}
+
+.form{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form div input{
+    max-width: 600px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #333;
+    padding: 0.5rem 1rem;
+    color: black;
+    border-radius: 1rem;
+}
+
+.form div button {
+    background-color: green;
 }
